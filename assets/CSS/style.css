@@ -1,8 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+
+body{
+    font-family: "Merriweather", serif;
+    color: #333333;
+}
 nav{
     text-align: center;
 }
 nav img{
     height: 60px;
+    padding: 8px 0;
 }
 main{
     width: 50%;
@@ -13,21 +21,29 @@ h1{
     color: #333333;
     margin-top: 64px;
     margin-bottom: 40px;
-    font-size: 38px;
+    font-size: 32px;
+    font-weight: 900;
 }
 a{
     color: #2b8081;
 }
+li{
+    padding-bottom: 20px ;
+}
 h2{
     border-bottom: 1px solid #C4F3F2;
     padding: 16px 0;
+    font-weight: 400;
 }
-figure{
-    margin: 0;
+h3{
+    font-weight: 900;
 }
-figure img{
+
+video {
     width: 100%;
-    border-radius: 20px;
+    border-radius: 16px;
+    -webkit-box-shadow: 3px 5px 15px 0px rgba(181,181,181,0.87); 
+    box-shadow: 3px 5px 15px 0px rgba(181,181,181,0.87);
 }
 nav p{
     background-color: #FDFBF1;
@@ -36,6 +52,7 @@ nav p{
     padding: 20px 0;
     margin-top: 10px;
     border-top: solid #FFD877 2px;
+    font-size: 14px;
 }
 figcaption{
     text-align: center;
